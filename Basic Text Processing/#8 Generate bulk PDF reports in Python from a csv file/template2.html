@@ -1,57 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Report Card</title>
-	
+<title>THE PSBB MILLENIUM SCHOOL</title>
 </head>
-<body>
+<body style="transform: rotate(0deg);">
     
-    <div class='container' style="border:2px solid black; width: 600px; padding: 0;">
+    <div class='container-fluid' style="border:1px solid black; padding: 0;">
         <div class="alert alert-secondary" role="alert">
-            <h1 style="text-align:center">REPORT CARD</h1>
+            <h1 style="text-align:center">THE PSBB MILLENIUM SCHOOL</h1>
+            <h4 style="text-align:center">GST & GERUGAMBAKKAM</h4>
           </div>
         
-            <h3 style="text-align:center">Data Skills for Everyone</h3>
-            <h5 style="text-align:center">{student}</h5>
-            <p style="text-align:center">Semester I</p>     
-       
-        <table class="table">
+<!--            <h3 style="text-align:center">THE PSBB MILLENIUM SCHOOL</h3>-->
+<!--        <h4 style="text-align:center">GST & GERUGAMBAKKAM</h4>-->
+        <h4 style="text-align:center">CONSOLIDATED PERFORMANCE SHEET(2022-23)</h4>
+            <h5 style="text-align:left">STUDENT : {student}</h5>
+        <h5 style="text-align:left">USN : {usn}</h5>
+        <h5 style="text-align:left">ROLL No : {rollno}</h5>
+        <h5 style="text-align:left">Class & Section : {section}</h5>
+
+        <table class="table table-bordered" style="font-size:10px;width:auto;">
             <thead class="table-dark">
                 <tr>
                     <th>Subject</th>
-                    <th>Score</th>
-                    <th>Grade</th>
-                    <th>GPA</th>
+                    <th colspan="3">{terms[0]}</th>
+                    <th colspan="3">{terms[1]}</th>
+                    <th colspan="3">{terms[2]}</th>
                 </tr>
+            <tr>
+                <th></th>
+                <th>{exams[0]}</th>
+                <th>{exams[1]}</th>
+                <th>{exams[2]}</th>
+<!--                Replace with appropriate exam names-->
+                <th>{exams[0]}</th>
+                <th>{exams[1]}</th>
+                <th>{exams[2]}</th>
+                <th>{exams[0]}</th>
+                <th>{exams[1]}</th>
+                <th>{exams[2]}</th>
+            </tr>
+
             </thead>
             
             <tr>
-                <td>Math</td>
-                <td>{math_score}</td>
-                <td>{math_grade}</td>
-                <td>{math_gpa}</td>
-            </tr>
-            <tr>
-                <td>Chemistry</td>
-                <td>{chemistry_score}</td>
-                <td>{chemistry_grade}</td>
-                <td>{chemistry_gpa}</td>
-            </tr>
+                <td style="font-weight:bold;font-size:10px">Core English (301)</td>
+                <td>{mt1_eng_score}</td>
+                <td>{mt2_eng_score}</td>
+                <td>{mt3_eng_score}</td>
 
+
+                <!--Replace with appropriate exam scores-->
+                <td>{mt1_eng_score}</td>
+                <td>{mt2_eng_score}</td>
+                <td>{mt3_eng_score}</td>
+
+
+                <td>{mt1_eng_score}</td>
+                <td>{mt2_eng_score}</td>
+                <td>{mt3_eng_score}</td>
+
+
+            </tr>
             <tr>
-                <td>Physics</td>
-                <td>{physics_score}</td>
-                <td>{physics_grade}</td>
-                <td>{physics_gpa}</td>
+                <td style="font-weight:bold;font-size:10px">Applied Mathematics(241) / Mathematics(041) / Entrepreneurship(066)</td>
+                <td>{mt1_math_score}</td>
+                <td>{mt2_math_score}</td>
+                <td>{mt3_math_score}</td>
+                <!--Replace with appropriate exam scores-->
+                <td>{mt1_math_score}</td>
+                <td>{mt2_math_score}</td>
+                <td>{mt3_math_score}</td>
+                <td>{mt1_math_score}</td>
+                <td>{mt2_math_score}</td>
+                <td>{mt3_math_score}</td>
+            </tr>
+            <tr>
+                <td style="font-weight:bold;font-size:10px">Physics(042) / Accountancy(055)</td>
+                <td>{mt1_phy_score}</td>
+                <td>{mt2_phy_score}</td>
+                <td>{mt3_phy_score}</td>
+                <!--Replace with appropriate exam scores-->
+                <td>{mt1_phy_score}</td>
+                <td>{mt2_phy_score}</td>
+                <td>{mt3_phy_score}</td>
+                <td>{mt1_phy_score}</td>
+                <td>{mt2_phy_score}</td>
+                <td>{mt3_phy_score}</td>
+            </tr>
+            <tr>
+                <td style="font-weight:bold;font-size:10px">Chemistry(043) / Business Studies(054)</td>
+                <td>{mt1_che_score}</td>
+                <td>{mt2_che_score}</td>
+                <td>{mt3_che_score}</td>
+                <!--Replace with appropriate exam scores-->
+                <td>{mt1_che_score}</td>
+                <td>{mt2_che_score}</td>
+                <td>{mt3_che_score}</td>
+                <td>{mt1_che_score}</td>
+                <td>{mt2_che_score}</td>
+                <td>{mt3_che_score}</td>
+            </tr>
+            <tr>
+                <td style="font-weight:bold;font-size:10px">Biology(044) / Computer Science(083) / Economics(030)</td>
+                <td>{mt1_bio_score}</td>
+                <td>{mt2_bio_score}</td>
+                <td>{mt3_bio_score}</td>
+                <!--Replace with appropriate exam scores-->
+                <td>{mt1_bio_score}</td>
+                <td>{mt2_bio_score}</td>
+                <td>{mt3_bio_score}</td>
+                <td>{mt1_bio_score}</td>
+                <td>{mt2_bio_score}</td>
+                <td>{mt3_bio_score}</td>
             </tr>
             <tfoot>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td>Total</td>
-                    <td>{total_gpa}</td>
-                </tr>
-    
+            <tr>
+                    <td style="font-weight:bold;font-size:10px">Total</td>
+                    <td>{mt1_total}</td>
+                    <td>{mt2_total}</td>
+                    <td>{mt3_total}</td>
+
+                    <!--Replace with appropriate exam scores-->
+                    <td>{mt1_total}</td>
+                    <td>{mt2_total}</td>
+                    <td>{mt3_total}</td>
+
+                    <td>{mt1_total}</td>
+                    <td>{mt2_total}</td>
+                    <td>{mt3_total}</td>
+
+            </tr>
+            <tr>
+                <td style="font-weight:bold;font-size:10px">Remarks</td>
+                    <td colspan="3">{term1_remarks}</td>
+                    <td colspan="3">{term2_remarks}</td>
+                    <td colspan="3">{term3_remarks}</td>
+            </tr>
             </tfoot>
         </table>
     </div>
