@@ -23,11 +23,13 @@ import pandas as pd
 from weasyprint import HTML,CSS
 import math
 from helpers import get_grade_letter, calculate_gpa, total_gpa
+from tkinter import filedialog
 
 #===================== 1. LOAD DATA ==========================================
 # GTK_FOLDER = r'C:\Users\seu5cob\AppData\Local\Programs\Python\Python310\GTK\gtk-nsis-pack\bin'
 # os.environ['PATH'] = GTK_FOLDER + os.pathsep + os.environ.get('PATH', '')
-data_file = Path('./data/records-edit.csv')
+#data_file = Path('./data/records-edit.csv')
+data_file = filedialog.askopenfilename()
 df = pd.read_csv(data_file)
 
 #suganthi : Defined values
