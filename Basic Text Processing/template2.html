@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>THE PSBB MILLENIUM SCHOOL</title>
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css"/>
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+</head>
+<body style="transform: rotate(0deg);">
+    
+    <div class='container-fluid' style="border:1px solid black; padding: 0;">
+        <div class="alert alert-secondary" role="alert">
+<img src="logo.jpg" style="height:50%;width:50%;align:left;" >
+            <h1 style="text-align:center">THE PSBB MILLENNIUM SCHOOL</h1>
+            <h4 style="text-align:center">GST & GERUGAMBAKKAM</h4>
+          </div>
+        
+<!--            <h3 style="text-align:center">THE PSBB MILLENNIUM SCHOOL</h3>-->
+<!--        <h4 style="text-align:center">GST & GERUGAMBAKKAM</h4>-->
+        <h4 style="text-align:center">ACHIEVEMENT RECORD(2022-23)</h4>
+            <h5 style="text-align:left">Name of the Pupil : {student}</h5>
+            <h5 style="text-align:left">Standard & Section : {section}</h5>
+        <h5 style="text-align:left">USN : {usn}   &emsp;  ROLL No : {rollno}</h5>
+      
+ 
+
+        <table class="table table-bordered" style="font-size:10px;width:auto;height:50px">
+           <!--  <thead class="table-dark">    -->
+                <tr>
+                    <th>Subject</th>
+                    <th colspan="3">{terms[0]}</th>
+                    <th colspan="2">{terms[1]}</th>
+                    <th colspan="2">{terms[2]}</th>
+                </tr>
+            <tr>
+                <th></th>
+                <th>{exams[0]}</th>
+                <th>{exams[1]}</th>
+                <th>{exams[2]}</th>
+<!--                Replace with appropriate exam names-->
+                <th>{exams[3]}</th>
+                <th>{exams[4]}</th>
+                <th>{exams[5]}</th>
+                <th>{exams[6]}</th>
+                
+            </tr>
+
+            </thead>
+            
+            <tr>
+                <td style="font-weight:bold;font-size:10px">Core English (301)</td>
+                <td>{UT1_eng_score}</td>
+                <td>{MT1_eng_score}</td>
+                <td>{QLY_eng_score}</td>
+
+
+                <!--Replace with appropriate exam scores-->
+                <td>{MT2_eng_score}</td>
+                <td>{HLY_eng_score}</td>
+              
+
+
+                <td>{UT2_eng_score}</td>
+                <td>{ANN_eng_score}</td>
+             
+
+
+            </tr>
+            <tr>
+                <td style="font-weight:bold;font-size:10px">Applied Mathematics(241) / Mathematics(041) / Entrepreneurship(066)</td>
+                <td>{UT1_math_ent_am_score}</td>
+                <td>{MT1_math_ent_am_score}</td>
+                <td>{QLY_math_ent_am_score}</td>
+                <!--Replace with appropriate exam scores-->
+                <td>{MT2_math_ent_am_score}</td>
+                <td>{HLY_math_ent_am_score}</td>
+             
+                <td>{UT2_math_ent_am_score}</td>
+                <td>{ANN_math_ent_am_score}</td>
+             
+            </tr>
+            <tr>
+                <td style="font-weight:bold;font-size:10px">Physics(042) / Accountancy(055)</td>
+                <td>{UT1_phy_acc_score}</td>
+                <td>{MT1_phy_acc_score}</td>
+                <td>{QLY_phy_acc_score}</td>
+                <!--Replace with appropriate exam scores-->
+                <td>{MT2_phy_acc_score}</td>
+                <td>{HLY_phy_acc_score}</td>
+          
+                <td>{UT2_phy_acc_score}</td>
+                <td>{ANN_phy_acc_score}</td>
+
+              
+            </tr>
+            <tr>
+                <td style="font-weight:bold;font-size:10px">Chemistry(043) / Business Studies(054)</td>
+               <td>{UT1_che_bst_score}</td>
+                <td>{MT1_che_bst_score}</td>
+                <td>{QLY_che_bst_score}</td>
+                <!--Replace with appropriate exam scores-->
+                <td>{MT2_che_bst_score}</td>
+                <td>{HLY_che_bst_score}</td>
+             
+                <td>{UT2_che_bst_score}</td>
+                <td>{ANN_che_bst_score}</td>
+
+              
+            </tr>
+            <tr>
+                <td style="font-weight:bold;font-size:10px">Biology(044) / Computer Science(083) / Economics(030)</td>
+                <td>{UT1_bio_csc_eco_score}</td>
+                <td>{MT1_bio_csc_eco_score}</td>
+                <td>{QLY_bio_csc_eco_score}</td>
+                <!--Replace with appropriate exam scores-->
+                <td>{MT2_bio_csc_eco_score}</td>
+                <td>{HLY_bio_csc_eco_score}</td>
+           
+                <td>{UT2_bio_csc_eco_score}</td>
+                <td>{ANN_bio_csc_eco_score}</td>
+
+               
+            </tr>
+            <tfoot>
+            <tr>
+                    <td style="font-weight:bold;font-size:10px">Total</td>
+                    <td>{UT1_total}</td>
+                    <td>{MT1_total}</td>
+                    <td>{QLY_total}</td>
+
+                    <!--Replace with appropriate exam scores-->
+                    <td>{MT2_total}</td>
+                    <td>{HLY_total}</td>
+                  
+
+                    <td>{UT2_total}</td>
+                    <td>{ANN_total}</td>
+              
+
+            </tr>
+            <tr>
+                <td style="font-weight:bold;font-size:10px">Remarks</td>
+                    <td colspan="3">{term1_remarks}</td>
+                    <td colspan="2">{term2_remarks}</td>
+                    <td colspan="2">{term3_remarks}</td>
+            </tr>
+
+            <tr>
+                <td style="font-weight:bold;font-size:10px">Co-operates with teachers and students</td>
+                    <td colspan="3">{term1_remarks}</td>
+                    <td colspan="2">{term2_remarks}</td>
+                    <td colspan="2">{term3_remarks}</td>
+            </tr>
+            <tr>
+                <td style="font-weight:bold;font-size:10px">Finishes work on time</td>
+                    <td colspan="3">{term1_remarks}</td>
+                    <td colspan="2">{term2_remarks}</td>
+                    <td colspan="2">{term3_remarks}</td>
+            </tr>
+            <tr>
+                <td style="font-weight:bold;font-size:10px">Uses time Wisely</td>
+                    <td colspan="3">{term1_remarks}</td>
+                    <td colspan="2">{term2_remarks}</td>
+                    <td colspan="2">{term3_remarks}</td>
+            </tr>
+            <tr>
+                <td style="font-weight:bold;font-size:10px">Works well in a group</td>
+                    <td colspan="3">{term1_remarks}</td>
+                    <td colspan="2">{term2_remarks}</td>
+                    <td colspan="2">{term3_remarks}</td>
+            </tr>
+            <tr>
+                <td style="font-weight:bold;font-size:10px">Works well alone</td>
+                    <td colspan="3">{term1_remarks}</td>
+                    <td colspan="2">{term2_remarks}</td>
+                    <td colspan="2">{term3_remarks}</td>
+            </tr>
+            <tr>
+                <td style="font-weight:bold;font-size:10px">Is self-disciplined</td>
+                    <td colspan="3">{term1_remarks}</td>
+                    <td colspan="2">{term2_remarks}</td>
+                    <td colspan="2">{term3_remarks}</td>
+            </tr>
+            <tr>
+                <td style="font-weight:bold;font-size:10px">Is polite and courteous</td>
+                    <td colspan="3">{term1_remarks}</td>
+                    <td colspan="2">{term2_remarks}</td>
+                    <td colspan="2">{term3_remarks}</td>
+            </tr>
+            <tr>
+                <td style="font-weight:bold;font-size:10px">Culturals</td>
+                    <td colspan="3">{term1_remarks}</td>
+                    <td colspan="2">{term2_remarks}</td>
+                    <td colspan="2">{term3_remarks}</td>
+            </tr>
+            <tr>
+                <td style="font-weight:bold;font-size:10px">HPE</td>
+                    <td colspan="3">{term1_remarks}</td>
+                    <td colspan="2">{term2_remarks}</td>
+                    <td colspan="2">{term3_remarks}</td>
+            </tr>
+             <tr>
+                <td style="font-weight:bold;font-size:10px">Attendance</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+            </tr>
+             <tr>
+                <td style="font-weight:bold;font-size:10px">Teacher's Initials</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+            </tr>
+             <tr>
+                <td style="font-weight:bold;font-size:10px">Principal's Initials</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+            </tr>
+            <tr>
+                <td style="font-weight:bold;font-size:10px">Final Consolidation calculation</td>
+                    <td colspan="7"></td>
+                   
+            </tr>
+            
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
