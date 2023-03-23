@@ -1,0 +1,182 @@
+ report['T1_Attentiveness'] = record['T1_Attentiveness'] if not (math.isnan(record['T1_Attentiveness'])) else ''
+    report['T1_Comprehension'] = record['T1_Comprehension'] if not (math.isnan(record['T1_Comprehension'])) else ''
+
+    report['T1_Vocabulary'] = record['T1_Vocabulary'] if not (math.isnan(record['T1_Vocabulary'])) else ''
+    report['T1_General conversation'] = record['T1_General conversation'] if not (math.isnan(record['T1_General conversation'])) else ''
+
+    report['T1_Recitation'] = record['T1_Recitation'] if not (math.isnan(record['T1_Recitation'])) else ''
+
+    report['T1_Narration'] = record['T1_Narration'] if not (math.isnan(record['T1_Narration'])) else ''
+
+    report['T1_Phonetic sound'] = record['T1_Phonetic sound'] if not (math.isnan(record['T1_Phonetic sound'])) else ''
+    report['T1_Recognition of Letters'] = record['T1_Recognition of Letters'] if not (math.isnan(record['T1_Recognition of Letters'])) else ''
+    report['T1_Recognition of Words'] = record['T1_Recognition of Words'] if not (math.isnan(record['T1_Recognition of Words'])) else ''
+
+    report['T1_Formation of Patterns'] = record['T1_Formation of Patterns'] if not (math.isnan(record['T1_Formation of Patterns'])) else ''
+    report['T1_Formation of Letters'] = record['T1_Formation of Letters'] if not (math.isnan(record['T1_Formation of Letters'])) else ''
+    report['T1_Formation of Words'] = record['T1_Formation of Words'] if not (math.isnan(record['T1_Formation of Words'])) else ''
+    report['T1_Class Assignment'] = record['T1_Class Assignment'] if not (math.isnan(record['T1_Class Assignment'])) else ''
+
+    report['T1_Recognition of Numbers'] = record['T1_Recognition of Numbers'] if not (math.isnan(record['T1_Recognition of Numbers'])) else ''
+    report['T1_Formation of Numbers'] = record['T1_Formation of Numbers'] if not (math.isnan(record['T1_Formation of Numbers'])) else ''
+    report['T1_Number Concept'] = record['T1_Number Concept'] if not (math.isnan(record['T1_Number Concept'])) else ''
+    report['T1_Basic Operations'] = record['T1_Basic Operations'] if not (math.isnan(record['T1_Basic Operations'])) else ''
+    report['T1_Class Assignment'] = record['T1_Class Assignment'] if not (math.isnan(record['T1_Class Assignment'])) else ''
+
+    report['T1_Class participation'] = record['T1_Class participation'] if not (math.isnan(record['T1_Class participation'])) else ''
+    report['T1_Class Assignment'] = record['VClass Assignment'] if not (math.isnan(record['T1_Class Assignment'])) else ''
+
+    report['T1_DRAWING / COLOURING'] = record['T1_DRAWING / COLOURING'] if not (math.isnan(record['T1_DRAWING / COLOURING'])) else ''
+    report['T1_INDIAN MUSIC'] = record['T1_INDIAN MUSIC'] if not (math.isnan(record['T1_INDIAN MUSIC'])) else ''
+    report['T1_DANCE'] = record['T1_DANCE'] if not (math.isnan(record['T1_DANCE'])) else ''
+    report['T1_SOCIAL SKILLS'] = record['T1_SOCIAL SKILLS'] if not (math.isnan(record['T1_SOCIAL SKILLS'])) else ''
+
+    report['T1_No. of Days Present'] = record['T1_No. of Days Present'] if not (math.isnan(record['T1_No. of Days Present'])) else ''
+    report['T1_No. of Working days'] = record['T1_No. of Working days'] if not (math.isnan(record['T1_No. of Working days'])) else ''
+
+report['T2_Attentiveness'] = record['T2_Attentiveness'] if not (math.isnan(record['T2_Attentiveness'])) else ''
+    report['T2_Comprehension'] = record['T2_Comprehension'] if not (math.isnan(record['T2_Comprehension'])) else ''
+
+    report['T2_Vocabulary'] = record['T2_Vocabulary'] if not (math.isnan(record['T2_Vocabulary'])) else ''
+    report['T2_General conversation'] = record['T2_General conversation'] if not (math.isnan(record['T2_General conversation'])) else ''
+
+    report['T2_Recitation'] = record['T2_Recitation'] if not (math.isnan(record['T2_Recitation'])) else ''
+
+    report['T2_Narration'] = record['T2_Narration'] if not (math.isnan(record['T2_Narration'])) else ''
+
+    report['T2_Phonetic sound'] = record['T2_Phonetic sound'] if not (math.isnan(record['T2_Phonetic sound'])) else ''
+    report['T2_Recognition of Letters'] = record['T2_Recognition of Letters'] if not (math.isnan(record['T2_Recognition of Letters'])) else ''
+    report['T2_Recognition of Words'] = record['T2_Recognition of Words'] if not (math.isnan(record['T2_Recognition of Words'])) else ''
+
+    report['T2_Formation of Patterns'] = record['T2_Formation of Patterns'] if not (math.isnan(record['T2_Formation of Patterns'])) else ''
+    report['T2_Formation of Letters'] = record['T2_Formation of Letters'] if not (math.isnan(record['T2_Formation of Letters'])) else ''
+    report['T2_Formation of Words'] = record['T2_Formation of Words'] if not (math.isnan(record['T2_Formation of Words'])) else ''
+    report['T2_Class Assignment'] = record['T2_Class Assignment'] if not (math.isnan(record['T2_Class Assignment'])) else ''
+
+    report['T2_Recognition of Numbers'] = record['T2_Recognition of Numbers'] if not (math.isnan(record['T2_Recognition of Numbers'])) else ''
+    report['T2_Formation of Numbers'] = record['T2_Formation of Numbers'] if not (math.isnan(record['T2_Formation of Numbers'])) else ''
+    report['T2_Number Concept'] = record['T2_Number Concept'] if not (math.isnan(record['T2_Number Concept'])) else ''
+    report['T2_Basic Operations'] = record['T2_Basic Operations'] if not (math.isnan(record['T2_Basic Operations'])) else ''
+    report['T2_Class Assignment'] = record['T2_Class Assignment'] if not (math.isnan(record['T2_Class Assignment'])) else ''
+
+    report['T2_Class participation'] = record['T2_Class participation'] if not (math.isnan(record['T2_Class participation'])) else ''
+    report['T2_Class Assignment'] = record['VClass Assignment'] if not (math.isnan(record['T2_Class Assignment'])) else ''
+
+    report['T2_DRAWING / COLOURING'] = record['T2_DRAWING / COLOURING'] if not (math.isnan(record['T2_DRAWING / COLOURING'])) else ''
+    report['T2_INDIAN MUSIC'] = record['T2_INDIAN MUSIC'] if not (math.isnan(record['T2_INDIAN MUSIC'])) else ''
+    report['T2_DANCE'] = record['T2_DANCE'] if not (math.isnan(record['T2_DANCE'])) else ''
+    report['T2_SOCIAL SKILLS'] = record['T2_SOCIAL SKILLS'] if not (math.isnan(record['T2_SOCIAL SKILLS'])) else ''
+
+    report['T2_No. of Days Present'] = record['T2_No. of Days Present'] if not (math.isnan(record['T2_No. of Days Present'])) else ''
+    report['T2_No. of Working days'] = record['T2_No. of Working days'] if not (math.isnan(record['T2_No. of Working days'])) else ''
+
+report['T3_Attentiveness'] = record['T3_Attentiveness'] if not (math.isnan(record['T3_Attentiveness'])) else ''
+    report['T3_Comprehension'] = record['T3_Comprehension'] if not (math.isnan(record['T3_Comprehension'])) else ''
+
+    report['T3_Vocabulary'] = record['T3_Vocabulary'] if not (math.isnan(record['T3_Vocabulary'])) else ''
+    report['T3_General conversation'] = record['T3_General conversation'] if not (math.isnan(record['T3_General conversation'])) else ''
+
+    report['T3_Recitation'] = record['T3_Recitation'] if not (math.isnan(record['T3_Recitation'])) else ''
+
+    report['T3_Narration'] = record['T3_Narration'] if not (math.isnan(record['T3_Narration'])) else ''
+
+    report['T3_Phonetic sound'] = record['T3_Phonetic sound'] if not (math.isnan(record['T3_Phonetic sound'])) else ''
+    report['T3_Recognition of Letters'] = record['T3_Recognition of Letters'] if not (math.isnan(record['T3_Recognition of Letters'])) else ''
+    report['T3_Recognition of Words'] = record['T3_Recognition of Words'] if not (math.isnan(record['T3_Recognition of Words'])) else ''
+
+    report['T3_Formation of Patterns'] = record['T3_Formation of Patterns'] if not (math.isnan(record['T3_Formation of Patterns'])) else ''
+    report['T3_Formation of Letters'] = record['T3_Formation of Letters'] if not (math.isnan(record['T3_Formation of Letters'])) else ''
+    report['T3_Formation of Words'] = record['T3_Formation of Words'] if not (math.isnan(record['T3_Formation of Words'])) else ''
+    report['T3_Class Assignment'] = record['T3_Class Assignment'] if not (math.isnan(record['T3_Class Assignment'])) else ''
+
+    report['T3_Recognition of Numbers'] = record['T3_Recognition of Numbers'] if not (math.isnan(record['T3_Recognition of Numbers'])) else ''
+    report['T3_Formation of Numbers'] = record['T3_Formation of Numbers'] if not (math.isnan(record['T3_Formation of Numbers'])) else ''
+    report['T3_Number Concept'] = record['T3_Number Concept'] if not (math.isnan(record['T3_Number Concept'])) else ''
+    report['T3_Basic Operations'] = record['T3_Basic Operations'] if not (math.isnan(record['T3_Basic Operations'])) else ''
+    report['T3_Class Assignment'] = record['T3_Class Assignment'] if not (math.isnan(record['T3_Class Assignment'])) else ''
+
+    report['T3_Class participation'] = record['T3_Class participation'] if not (math.isnan(record['T3_Class participation'])) else ''
+    report['T3_Class Assignment'] = record['VClass Assignment'] if not (math.isnan(record['T3_Class Assignment'])) else ''
+
+    report['T3_DRAWING / COLOURING'] = record['T3_DRAWING / COLOURING'] if not (math.isnan(record['T3_DRAWING / COLOURING'])) else ''
+    report['T3_INDIAN MUSIC'] = record['T3_INDIAN MUSIC'] if not (math.isnan(record['T3_INDIAN MUSIC'])) else ''
+    report['T3_DANCE'] = record['T3_DANCE'] if not (math.isnan(record['T3_DANCE'])) else ''
+    report['T3_SOCIAL SKILLS'] = record['T3_SOCIAL SKILLS'] if not (math.isnan(record['T3_SOCIAL SKILLS'])) else ''
+
+    report['T3_No. of Days Present'] = record['T3_No. of Days Present'] if not (math.isnan(record['T3_No. of Days Present'])) else ''
+    report['T3_No. of Working days'] = record['T3_No. of Working days'] if not (math.isnan(record['T3_No. of Working days'])) else ''
+
+
+
+
+LKG
+
+  report['T1_Attentiveness'] = record['T1_Attentiveness'] if not (math.isnan(record['T1_Attentiveness'])) else ''
+    report['T1_Comprehension'] = record['T1_Comprehension'] if not (math.isnan(record['T1_Comprehension'])) else ''
+    report['T1_Clarity'] = record['T1_Clarity'] if not (math.isnan(record['T1_Clarity'])) else ''
+    report['T1_General conversation'] = record['T1_General conversation'] if not (math.isnan(record['T1_General conversation'])) else ''
+    report['T1_Recitation'] = record['T1_Recitation'] if not (math.isnan(record['T1_Recitation'])) else ''
+    report['T1_Narration'] = record['T1_Narration'] if not (math.isnan(record['T1_Narration'])) else ''
+    report['T1_Phonetic sound'] = record['T1_Phonetic sound'] if not (math.isnan(record['T1_Phonetic sound'])) else ''
+    report['T1_Recognition of Letters'] = record['T1_Recognition of Letters'] if not (math.isnan(record['T1_Recognition of Letters'])) else ''
+    report['T1_Formation of Patterns'] = record['T1_Formation of Patterns'] if not (math.isnan(record['T1_Formation of Patterns'])) else ''
+    report['T1_Formation of Letters'] = record['T1_Formation of Letters'] if not (math.isnan(record['T1_Formation of Letters'])) else ''
+    report['T1_Class Assignment'] = record['T1_Class Assignment'] if not (math.isnan(record['T1_Class Assignment'])) else ''
+    report['T1_Recognition of Numbers'] = record['T1_Recognition of Numbers'] if not (math.isnan(record['T1_Recognition of Numbers'])) else ''
+    report['T1_Formation of Numbers'] = record['T1_Formation of Numbers'] if not (math.isnan(record['T1_Formation of Numbers'])) else ''
+    report['T1_Concept Counting'] = record['T1_Concept Counting'] if not (math.isnan(record['T1_Concept Counting'])) else ''
+    report['T1_Class Assignment'] = record['T1_Class Assignment'] if not (math.isnan(record['T1_Class Assignment'])) else ''
+    report['T1_Class participation'] = record['T1_Class participation'] if not (math.isnan(record['T1_Class participation'])) else ''
+    report['T1_Class Assignment'] = record['VClass Assignment'] if not (math.isnan(record['T1_Class Assignment'])) else ''
+    report['T1_DRAWING / COLOURING'] = record['T1_DRAWING / COLOURING'] if not (math.isnan(record['T1_DRAWING / COLOURING'])) else ''
+    report['T1_INDIAN MUSIC'] = record['T1_INDIAN MUSIC'] if not (math.isnan(record['T1_INDIAN MUSIC'])) else ''
+    report['T1_SOCIAL SKILLS'] = record['T1_SOCIAL SKILLS'] if not (math.isnan(record['T1_SOCIAL SKILLS'])) else ''
+    report['T1_No. of Days Present'] = record['T1_No. of Days Present'] if not (math.isnan(record['T1_No. of Days Present'])) else ''
+    report['T1_No. of Working days'] = record['T1_No. of Working days'] if not (math.isnan(record['T1_No. of Working days'])) else ''
+
+    report['T2_Attentiveness'] = record['T2_Attentiveness'] if not (math.isnan(record['T2_Attentiveness'])) else ''
+    report['T2_Comprehension'] = record['T2_Comprehension'] if not (math.isnan(record['T2_Comprehension'])) else ''
+    report['T2_Clarity'] = record['T2_Clarity'] if not (math.isnan(record['T2_Clarity'])) else ''
+    report['T2_General conversation'] = record['T2_General conversation'] if not (math.isnan(record['T2_General conversation'])) else ''
+    report['T2_Recitation'] = record['T2_Recitation'] if not (math.isnan(record['T2_Recitation'])) else ''
+    report['T2_Narration'] = record['T2_Narration'] if not (math.isnan(record['T2_Narration'])) else ''
+    report['T2_Phonetic sound'] = record['T2_Phonetic sound'] if not (math.isnan(record['T2_Phonetic sound'])) else ''
+    report['T2_Recognition of Letters'] = record['T2_Recognition of Letters'] if not (math.isnan(record['T2_Recognition of Letters'])) else ''
+    report['T2_Formation of Patterns'] = record['T2_Formation of Patterns'] if not (math.isnan(record['T2_Formation of Patterns'])) else ''
+    report['T2_Formation of Letters'] = record['T2_Formation of Letters'] if not (math.isnan(record['T2_Formation of Letters'])) else ''
+    report['T2_Class Assignment'] = record['T2_Class Assignment'] if not (math.isnan(record['T2_Class Assignment'])) else ''
+    report['T2_Recognition of Numbers'] = record['T2_Recognition of Numbers'] if not (math.isnan(record['T2_Recognition of Numbers'])) else ''
+    report['T2_Formation of Numbers'] = record['T2_Formation of Numbers'] if not (math.isnan(record['T2_Formation of Numbers'])) else ''
+    report['T2_Concept Counting'] = record['T2_Concept Counting'] if not (math.isnan(record['T2_Concept Counting'])) else ''
+    report['T2_Class Assignment'] = record['T2_Class Assignment'] if not (math.isnan(record['T2_Class Assignment'])) else ''
+    report['T2_Class participation'] = record['T2_Class participation'] if not (math.isnan(record['T2_Class participation'])) else ''
+    report['T2_Class Assignment'] = record['VClass Assignment'] if not (math.isnan(record['T2_Class Assignment'])) else ''
+    report['T2_DRAWING / COLOURING'] = record['T2_DRAWING / COLOURING'] if not (math.isnan(record['T2_DRAWING / COLOURING'])) else ''
+    report['T2_INDIAN MUSIC'] = record['T2_INDIAN MUSIC'] if not (math.isnan(record['T2_INDIAN MUSIC'])) else ''
+    report['T2_SOCIAL SKILLS'] = record['T2_SOCIAL SKILLS'] if not (math.isnan(record['T2_SOCIAL SKILLS'])) else ''
+    report['T2_No. of Days Present'] = record['T2_No. of Days Present'] if not (math.isnan(record['T2_No. of Days Present'])) else ''
+    report['T2_No. of Working days'] = record['T2_No. of Working days'] if not (math.isnan(record['T2_No. of Working days'])) else ''
+
+    report['T3_Attentiveness'] = record['T3_Attentiveness'] if not (math.isnan(record['T3_Attentiveness'])) else ''
+    report['T3_Comprehension'] = record['T3_Comprehension'] if not (math.isnan(record['T3_Comprehension'])) else ''
+    report['T3_Clarity'] = record['T3_Clarity'] if not (math.isnan(record['T3_Clarity'])) else ''
+    report['T3_General conversation'] = record['T3_General conversation'] if not (math.isnan(record['T3_General conversation'])) else ''
+    report['T3_Recitation'] = record['T3_Recitation'] if not (math.isnan(record['T3_Recitation'])) else ''
+    report['T3_Narration'] = record['T3_Narration'] if not (math.isnan(record['T3_Narration'])) else ''
+    report['T3_Phonetic sound'] = record['T3_Phonetic sound'] if not (math.isnan(record['T3_Phonetic sound'])) else ''
+    report['T3_Recognition of Letters'] = record['T3_Recognition of Letters'] if not (math.isnan(record['T3_Recognition of Letters'])) else ''
+    report['T3_Formation of Patterns'] = record['T3_Formation of Patterns'] if not (math.isnan(record['T3_Formation of Patterns'])) else ''
+    report['T3_Formation of Letters'] = record['T3_Formation of Letters'] if not (math.isnan(record['T3_Formation of Letters'])) else ''
+    report['T3_Class Assignment'] = record['T3_Class Assignment'] if not (math.isnan(record['T3_Class Assignment'])) else ''
+    report['T3_Recognition of Numbers'] = record['T3_Recognition of Numbers'] if not (math.isnan(record['T3_Recognition of Numbers'])) else ''
+    report['T3_Formation of Numbers'] = record['T3_Formation of Numbers'] if not (math.isnan(record['T3_Formation of Numbers'])) else ''
+    report['T3_Concept Counting'] = record['T3_Concept Counting'] if not (math.isnan(record['T3_Concept Counting'])) else ''
+    report['T3_Class Assignment'] = record['T3_Class Assignment'] if not (math.isnan(record['T3_Class Assignment'])) else ''
+    report['T3_Class participation'] = record['T3_Class participation'] if not (math.isnan(record['T3_Class participation'])) else ''
+    report['T3_Class Assignment'] = record['VClass Assignment'] if not (math.isnan(record['T3_Class Assignment'])) else ''
+    report['T3_DRAWING / COLOURING'] = record['T3_DRAWING / COLOURING'] if not (math.isnan(record['T3_DRAWING / COLOURING'])) else ''
+    report['T3_INDIAN MUSIC'] = record['T3_INDIAN MUSIC'] if not (math.isnan(record['T3_INDIAN MUSIC'])) else ''
+    report['T3_SOCIAL SKILLS'] = record['T3_SOCIAL SKILLS'] if not (math.isnan(record['T3_SOCIAL SKILLS'])) else ''
+    report['T3_No. of Days Present'] = record['T3_No. of Days Present'] if not (math.isnan(record['T3_No. of Days Present'])) else ''
+    report['T3_No. of Working days'] = record['T3_No. of Working days'] if not (math.isnan(record['T3_No. of Working days'])) else ''
+

@@ -1,0 +1,53 @@
+S. NO.,USN NO,ROLL NO,STUDENT NAME,SECTION,T1_Attentiveness ,T1_Comprehension,"T1_Vocabulary        
+",T1_General conversation,T1_Recitation,T1_Narration,T1_Phonetic sound,T1_Recognition of Letters,T1_Recognition of Words,"T1_Formation of Patterns
+
+",T1_Formation of Letters,T1_Formation of Words,T1_Class Assignment,"T1_Recognition of Numbers    
+
+",T1_Formation of Numbers,T1_Number Concept,T1_Basic Operations,T1_Class Assignment,T1_Class participation,T1_Class Assignment,T1_DRAWING / COLOURING,T1_INDIAN MUSIC,T1_DANCE,T1_SOCIAL SKILLS,T1_No. of Days Present,T1_No. of Working days,T2_Attentiveness ,T2_Comprehension,T2_Vocabulary   ,T2_General conversation,T2_Recitation,T2_Narration,T2_Phonetic sound,T2_Recognition of Letters,T2_Recognition of Words,"T2_Formation of Patterns
+
+",T2_Formation of Letters,T2_Formation of Words,T2_Class Assignment,"T2_Recognition of Numbers    
+
+",T2_Formation of Numbers,T2_Number Concept,T2_Basic Operations,T2_Class Assignment,T2_Class participation,T2_Class Assignment,T2_DRAWING / COLOURING,T2_INDIAN MUSIC,T2_DANCE,T2_SOCIAL SKILLS,T2_No. of Days Present,T2_No. of Working days,T3_Attentiveness ,T3_Comprehension,T3_Vocabulary   ,T3_General conversation,T3_Recitation,T3_Narration,T3_Phonetic sound,T3_Recognition of Letters,T3_Recognition of Words,"T3_Formation of Patterns
+
+",T3_Formation of Letters,T3_Formation of Words,T3_Class Assignment,"T3_Recognition of Numbers    
+
+",T3_Formation of Numbers,T3_Number Concept,T3_Basic Operations,T3_Class Assignment,T3_Class participation,T3_Class Assignment,T3_DRAWING / COLOURING,T3_INDIAN MUSIC,T3_DANCE,T3_SOCIAL SKILLS,T3_No. of Days Present,T3_No. of Working days,
+1,170248,6501,ABC,6A,1,1,1,1,1,1,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2,90125,6502,DEF,6 B,1,1,1,1,1,1,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+3,170248,6503,GHI,6 C,1,1,1,1,1,1,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Attentiveness ,T1_Attentiveness ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Comprehension,T1_Comprehension,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,"Clarity        
+","T1_Vocabulary       
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,General conversation,T1_General conversation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Recitation,T1_Recitation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Narration,T1_Narration,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,"Phonetic sound
+",T1_Phonetic sound,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Recognition of Letters,T1_Recognition of Letters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,"Formation of Patterns
+
+","T1_Formation of Patterns
+
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Formation of Letters,T1_Formation of Letters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Class Assignment,T1_Class Assignment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,"Recognition of Numbers    
+
+","T1_Recognition of Numbers    
+
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Formation of Numbers,T1_Formation of Numbers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Concept Counting,T1_Concept Counting,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Class Assignment,T1_Class Assignment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,"Class participation
+",T1_Class participation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Class Assignment,T1_Class Assignment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DRAWING / COLOURING,T1_DRAWING / COLOURING,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,INDIAN MUSIC,T1_INDIAN MUSIC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,SOCIAL SKILLS,T1_SOCIAL SKILLS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,No. of Days Present,T1_No. of Days Present,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,No. of Working days,T1_No. of Working days,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
